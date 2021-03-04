@@ -20,7 +20,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 repositories {
     maven { // The repo from which to get waila
         name "Mobius Repo"
-        url "http://tehnut.info/maven"
+        url "http://maven.tehnut.info"
     }
     maven { // JEI
         url "http://dvs1.progwml6.com/files/maven"
@@ -54,7 +54,7 @@ minecraft {
 
 dependencies {
     deobfCompile "mezz.jei:jei_1.12:4.7.0.67"
-    deobfCompile "mcp.mobius.waila:Hwyla:1.8.18-B32_1.12:api"
+    deobfCompile "mcp.mobius.waila:Hwyla:1.8.26-B41_1.12.2:api"
     deobfCompile "cofh:RedstoneFlux:1.12-2.0.0.1:universal"
     deobfCompile "mcjty.theoneprobe:TheOneProbe-1.12:1.12-1.4.14-7"
     deobfCompile "com.github.mcjty:intwheel:1.12-1.2.7"
